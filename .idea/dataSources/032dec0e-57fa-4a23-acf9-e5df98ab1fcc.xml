@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Shopme DB on local PostgresSQL">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.20">
+    <root id="1">
+      <ServerVersion>14.1</ServerVersion>
+      <StartupTime>1639100678</StartupTime>
+    </root>
+    <database id="2" parent="1" name="mydb">
+      <ObjectId>16394</ObjectId>
+      <Comment>My First postgres DB</Comment>
+      <Owner>postgres</Owner>
+      <Current>1</Current>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>13754</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <Owner>postgres</Owner>
+    </database>
+  </database-model>
+</dataSource>
